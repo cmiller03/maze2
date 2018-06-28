@@ -83,7 +83,8 @@ function move(dRow, dCol) {
 function checkForWin() {
     if(map[avatarRow][avatarCol] === "F") {
         youWonDiv.classList.remove("hidden");
-        const audio = new Audio('wow.mp3');
+        // const audio = new Audio('wow.mp3');
+        const audio = new Audio('Energy is growing.mp3');
         audio.play();
     }
 }
