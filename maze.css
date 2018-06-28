@@ -6,13 +6,21 @@ body {
     position: relative;
 }
 
-#avatar {
+/* #avatar {
     position: absolute; 
     width: 33px; 
     height: 33px; 
     background: url('chok.png'); 
     background-size: contain; 
     transition: all 0.1s;
+} */
+#avatar {
+    position: absolute; 
+    width: 33px; 
+    height: 33px; 
+    background: url('boris2.png'); 
+    background-size: contain; 
+    transition: all 0.05s;
 }
 
 #youWonDiv {
@@ -36,12 +44,25 @@ body {
     height: 33px;
 }
 
+/* .cell {
+    width: 33px; 
+    line-height: 33px;
+    text-align: center;
+} */
 .cell {
     width: 33px; 
     line-height: 33px;
     text-align: center;
+    background-image: url("fish.png");
 }
 
-.W {
+/* .W {
     background: #00356b;
+} */
+.W {
+    width: 33px; 
+    line-height: 33px;
+    text-align: center;
+    background-image: url("beanbag.png");
+    
 }
