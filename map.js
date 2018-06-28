@@ -7,11 +7,11 @@ const map = [
     "W         W     W W W",
     "W WWW WWWWW WWWWW W W",
     "W W   W   W W     W W",
-    "W WWWWW W W W WWW W F",
-    "S     W W W W W W WWW",
+    "W WWWWW W W W WWW W W",
+    "S       W W W W W WWW",
     "WWWWW W W W W W W W W",
     "W     W W W   W W W W",
-    "W WWWWWWW WWWWW W W W",
+    "W WWWWWWW WWWWW W W F",
     "W       W       W   W",
     "WWWWWWWWWWWWWWWWWWWWW"
 ];
